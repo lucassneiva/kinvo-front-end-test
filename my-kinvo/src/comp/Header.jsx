@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from '../logo_kinvo.svg';
 
 class Header extends React.Component {
   render() {
     return (
      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo-kinvo" />
+        <h1 className="App-logo">Rendas</h1>
       </header>
     );
   }
